@@ -199,8 +199,8 @@
 
 .nav2{
     overflow: hidden;
-    overflow: scroll;
-    justify-content: start;
+    /* overflow: scroll; */
+    justify-content: center;
     padding: 10px;
 }
 .svg11{
@@ -209,7 +209,7 @@
 }
 .search input{
     width: 180px;
-    font-size:15px ;
+    font-size: 15px ;
 }
 .search button span{
     display: none;
