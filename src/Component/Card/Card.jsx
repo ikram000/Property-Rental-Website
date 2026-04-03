@@ -2,7 +2,7 @@ import React from 'react'
 import"./Card.css" 
 
 
-function Card(image1,image2,image3,title,price ) {
+function Card({image1,image2,image3,title,price} ) {
   return (
     <div className='card'>
         <div className="images">
