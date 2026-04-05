@@ -4,7 +4,7 @@ function Signup() {
   return (
     <div id='signup'>
      <form action="">
-        <span id='Signup title'>SignUp Page</span>
+        <span id='signuptitle'>SignUp Page</span>
         <div className='list'>
         <label htmlFor="name">Username</label>
         <input type="text" id='name' required />
@@ -21,7 +21,7 @@ function Signup() {
         <label htmlFor="conpass1"> Confrim Password</label>
         <input type="password" id='conpass1' required />
          </div>
-         <button id='Signupbtn'>SignUp</button>
+         <button id='signupbtn'>SignUp</button>
       </form>
              
     </div>
