@@ -49,7 +49,7 @@ function Nav() {
       </div>
       <div className="nav2">
        <NavLink to={""}><div className="svg11"><MdOutlineWhatshot /><h3>Trending</h3></div></NavLink>
-        <div className="svg11"><GiFamilyHouse /><h3>Houses</h3></div>
+        <NavLink to = {"Houses"}><div className="svg11"><GiFamilyHouse /><h3>Houses</h3></div></NavLink>
         <div className="svg11"><MdBedroomParent /><h3>Rooms</h3></div>
         <div className="svg11"><PiFarm /><h3>Farm Houses</h3></div>
         <div className="svg11"><MdOutlinePool /><h3>Pool Houses</h3></div>
